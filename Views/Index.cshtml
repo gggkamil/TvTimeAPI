@@ -1,0 +1,19 @@
+﻿@model IEnumerable<TVTimeAPIWeb.Models.TVShow>
+
+<h2>TV Show Ratings Dashboard</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Rating</th>
+    </tr>
+    @foreach (var show in Model)
+    {
+        <tr>
+            <td>@show.ID</td>
+            <td>@show.Title</td>
+            <td>@show.Rating</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,15 @@
+﻿@model TVTimeAPIWeb.Models.Season
+
+<h2>@Model.Title - Season @Model.SeasonNumber Details</h2>
+
+<p>@Model.Summary</p>
+
+<h3>Episodes:</h3>
+<ul>
+    @foreach (var episode in Model.Episodes)
+    {
+            <li>
+            @episode.Title (Episode @episode.EpisodeNumber) - Rating: @episode.Rating
+            </li>
+    }
+</ul>

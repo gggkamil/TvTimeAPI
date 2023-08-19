@@ -1,0 +1,8 @@
+﻿@model TVTimeAPIWeb.Models.Episode
+
+<h2>@Model.Title (Episode @Model.EpisodeNumber) Details</h2>
+
+<p>@Model.Summary</p>
+
+<p>Rating: @Model.Rating</p>
+<p>Air Date: @Model.AirDate.ToShortDateString()</p>

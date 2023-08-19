@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVTimeAPIWeb", "TVTimeAPIWeb.csproj", "{BE835BBD-E59F-4815-8DF2-911FB852DA93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE835BBD-E59F-4815-8DF2-911FB852DA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE835BBD-E59F-4815-8DF2-911FB852DA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE835BBD-E59F-4815-8DF2-911FB852DA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE835BBD-E59F-4815-8DF2-911FB852DA93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4F6A285-AF2A-456C-9547-B3D04A7E24BA}
+	EndGlobalSection
+EndGlobal
